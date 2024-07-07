@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ashwanth Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+	<style>
+        .btn-contact {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .person-details {
+            /* Background and text color */
+            background-color: #343a40; /* Dark background color */
+            color: #fff; /* White text color */
+            /* Padding and margin */
+            padding: 20px;
+            /* Rounded corners for a softer look */
+            border-radius: 10px;
+            /* Box shadow for depth */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+            .person-details h3 {
+                /* Center align heading */
+                text-align: center;
+                /* Margin bottom for spacing */
+                margin-bottom: 1.5rem;
+            }
+
+            .person-details pre {
+                /* Maintain code formatting */
+                white-space: pre-wrap;
+                /* Set font size and family */
+                font-size: 16px;
+                font-family: 'Courier New', Courier, monospace;
+                /* Add padding */
+                padding: 10px;
+                /* Border to distinguish code */
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                /* Rounded corners */
+                border-radius: 5px;
+                /* Background color for code block */
+                background-color: #1a1a1a;
+            }
+
+                .person-details pre code {
+                    /* Adjust code block padding */
+                    padding: 0;
+                    /* Remove margin for better alignment */
+                    margin: 0;
+                    /* Ensure text is white */
+                    color: #fff;
+                    /* Set font size and family */
+                    font-size: 16px;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+
+
+
+        .btn-stylish {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 18px;
+            color: #fff;
+            background: linear-gradient(45deg, #ff6b6b, #f06595);
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+            .btn-contact:hover {
+                background-color: #0056b3;
+            }
+
+        .ftco-section {
+            position: relative;
+            padding: 7em 0;
+        }
+
+        .heading-section {
+            margin-bottom: 4em;
+        }
+
+        .img {
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .resume-wrap {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .icon {
+            font-size: 2em;
+            margin-right: 15px;
+        }
+
+        .text {
+            flex: 1;
+        }
+
+        .date {
+            font-weight: bold;
+        }
+
+        .position {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .skills {
+            margin-top: 10px;
+        }
+
+        .skill-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .skill-btn:hover {
+                background-color: #0056b3;
+            }
+
+        .description {
+            margin-top: 20px;
+            display: none;
+        }
+
+	</style>
+  </head>
+  
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+
+
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		  <div class="container">
+			  <a class="navbar-brand" href="index.html"><span>As</span>hwanth</a>
+			  <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="oi oi-menu"></span> Menu
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="ftco-nav">
+				  <ul class="navbar-nav ml-auto">
+					  <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					  <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					  <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+					  <li class="nav-item"><a href="#services-section" class="nav-link"><span>Certifications</span></a></li>
+					  <li class="nav-item"><a href="#page-4" class="nav-link"><span>Projects</span></a></li>
+					  <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
+					  <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				  </ul>
+			  </div>
+		  </div>
+	  </nav>
+	  <section class="hero-wrap js-fullheight">
+		  <div class="overlay"></div>
+		  <div class="container">
+			  <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+				  <div class="col-lg-8 col-md-12 ftco-animate text-center">
+					  <div class="text">
+						  <span class="subheading">Hey! I am</span>
+						  <h1>Ashwanth Balaji</h1>
+						  <h2>
+							  I'm a
+							  <span class="txt-rotate"
+					  data-period="2000"
+					  data-rotate='["Cybersecurity Enthusiast.", "Developer.", "System Admin.", "Explorer.", "Blogger"]'></span>
+						  </h2>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="mouse">
+				  <a href="#" class="mouse-icon">
+					  <div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+				  </a>
+			  </div>
+		  </div>
+	  </section>
+
+	  <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+		  <div class="container">
+			  <div class="row">
+				  <!-- About Me Text Column -->
+				  <div class="col-lg-7 order-lg-last pl-lg-5 py-5">
+					  <div class="heading-section mb-4">
+						  <h2 class="mb-4">About Me</h2>
+						  <p>
+							  Hi, I'm Ashwanth Balaji, a self-taught passionate Ethical Hacker from India, currently working at Tata Consultancy Services as a Systems Engineer.
+						  </p>
+						  <p>
+							  I ❤️ to create blogs and develop real-time applications using Python web framework Flask.
+						  </p>
+						  <p>#Developer #Blogger #Security Researcher</p>
+					  </div>
+					  <div class="ftco-animate">
+						  <a href="https://github.com/Ashwanthbala" target="_blank" class="btn btn-primary px-4 py-3">Github Profile</a>
+					  </div>
+				  </div>
+				  <!-- Person Details Column -->
+				  <div class="col-lg-5 order-lg-first py-5">
+					  <div class="person-details bg-dark text-white p-4 rounded">
+						  <pre><code class="python">
+					class Person:
+						def __init__(self):
+							self.name = "Ashwanth Balaji"
+							self.traits = ["DEV", "SECURITY"]
+							self.age = 26
+						</code></pre>
+					  </div>
+				  </div>
+
+			  </div>
+		  </div>
+	  </section>
+
+
+
+
+	  <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-md-3">
+					  <nav id="navi">
+						  <ul>
+							  <li><a href="#page-1">Education</a></li>
+							  <li><a href="#page-2">Experience</a></li>
+							  <li><a href="#page-3">Skills</a></li>
+							  <li><a href="#page-4">Projects</a></li>
+						  </ul>
+					  </nav>
+				  </div>
+				  <div class="col-md-9">
+					  <div id="page-1" class="page one">
+						  <h2 class="heading">Education</h2>
+
+						  <div class="resume-wrap d-flex ftco-animate">
+							  <div class="icon d-flex align-items-center justify-content-center">
+								  <span class="flaticon-ideas"></span>
+							  </div>
+							  <div class="text pl-3">
+								  <span class="date">2016-2020</span>
+								  <h2>Bachelor of Engineering</h2>
+								  <span class="position">Government College of Technology, Coimbatore</span>
+							  </div>
+						  </div>
+						  <div class="resume-wrap d-flex ftco-animate">
+							  <div class="icon d-flex align-items-center justify-content-center">
+								  <span class="flaticon-ideas"></span>
+							  </div>
+							  <div class="text pl-3">
+								  <span class="date">2014-2016</span>
+								  <h2>Higher Secondary Education</h2>
+								  <span class="position">SRV Higher Secondary Matriculation School, Samayapuram,Trichy</span>
+							  </div>
+						  </div>
+						  <div class="resume-wrap d-flex ftco-animate">
+							  <div class="icon d-flex align-items-center justify-content-center">
+								  <span class="flaticon-ideas"></span>
+							  </div>
+							  <div class="text pl-3">
+								  <span class="date">2012-2014</span>
+								  <h2>SSLC</h2>
+								  <span class="position">Chinmaya Vidyalaya Matriculation School, Srirangam, Trichy</span>
+							  </div>
+						  </div>
+					  </div>
+
+					  <div id="page-2" class="page two">
+						  <h2 class="heading">Experience</h2>
+
+						  <div class="resume-wrap d-flex ftco-animate">
+							  <div class="icon d-flex align-items-center justify-content-center">
+								  <span class="flaticon-ideas"></span>
+							  </div>
+							  <div class="text pl-3">
+								  <span class="date">2021-Present</span>
+								  <h2>Systems Engineer</h2>
+								  <span class="position">Tata Consultancy Services Pvt Ltd.</span>
+								  <div class="skills">
+									  <button class="skill-btn" onclick="showDescription('aws')">AWS</button>
+									  <button class="skill-btn" onclick="showDescription('linux')">Linux</button>
+									  <button class="skill-btn" onclick="showDescription('python')">Python</button>
+									  <button class="skill-btn" onclick="showDescription('server-hardening')">Server Hardening</button>
+									  <button class="skill-btn" onclick="showDescription('server-build')">Server Build</button>
+									  <button class="skill-btn" onclick="showDescription('ansible')">Ansible</button>
+									  <!-- Add more buttons as needed -->
+								  </div>
+								  <div id="aws" class="description" style="display: none;">
+									  <h3>AWS Experience</h3>
+									  <ul>
+										  <li>Configured and managed AWS products like EC2, IAM, and EBS.</li>
+										  <li>Created instances and managed users with AWS IAM.</li>
+										  <li>Handled volume creation and attachment to servers.</li>
+										  <li>Configured and managed Linux EC2 instances.</li>
+										  <li>Monitored servers using Amazon CloudWatch and configured alarms for CPU, memory, and disk utilization.</li>
+										  <li>Created and managed AMIs, snapshots, and volumes.</li>
+										  <li>Scheduled server downtimes for maintenance and upgrades.</li>
+										  <li>Provisioned infrastructure for projects using CloudFormation templates, including services like VPC, ELB, S3, RDS, and Route53.</li>
+										  <li>Developed a Perl script for monitoring CPU and Apache server status, reporting to CloudWatch every 5 minutes.</li>
+										  <li>Ensured high availability by creating instances behind ELB and in Auto Scaling groups for critical applications.</li>
+									  </ul>
+								  </div>
+								  <div id="linux" class="description" style="display: none;">
+									  <h3>Linux Experience</h3>
+									  <ul>
+										  <li>Managed and maintained 7000+ Linux servers running RHEL6/7/8, including server builds, patching, file systems management, and resource upgrades.</li>
+										  <li>Automated routine tasks through the development of shell scripts, enhancing operational efficiency and reducing manual effort.</li>
+									  </ul>
+									  <h4>Project Highlights:</h4>
+									  <ul>
+										  <li><strong>Bulk Server Patching:</strong> Developed and implemented a Bash script for the simultaneous patching of multiple servers, reducing patching time from hours to minutes and minimizing human errors.</li>
+										  <li><strong>Linux Server Health Check:</strong> Created a comprehensive health check script, automating checks for server uptime, load averages, RAM, and file system usage, enhancing system stability and reliability.</li>
+										  <li><strong>RHEL Upgrade Automation:</strong> Designed and executed scripts for upgrading servers from RHEL6 to RHEL7 and RHEL8, optimizing the transition process and reducing manual intervention.</li>
+									  </ul>
+									  <ul>
+										  <li>Implemented updates and patches across various environments using shell scripts and Ansible playbooks, ensuring system security and reliability.</li>
+										  <li>Conducted server decommissions, server upgrades (RHEL6.x to RHEL7.x), user management, process management, and PU/memory resource upgrades.</li>
+										  <li>Utilized ServiceNow ticketing tool to resolve incidents, service requests, changes, and tasks within SLA guidelines.</li>
+										  <li>Delivered timely and effective technical support, troubleshooting and resolving technical issues to meet end-users' needs.</li>
+									  </ul>
+
+								  </div>
+								  <div id="python" class="description" style="display: none;">
+									  <h3>Python Experience</h3>
+									  <ul>
+										  <li>Developed scripts to automate various administrative tasks and enhance productivity.</li>
+										  <li>Utilized Python for data analysis, manipulation, and reporting.</li>
+										  <li>Experienced in using libraries such as Pandas, NumPy, and Matplotlib for data processing and visualization.</li>
+									  </ul>
+									  <h4>Real-Time Project: IT Risk Dashboard</h4>
+									  <ul>
+										  <li><strong>Project Overview:</strong> Developed an IT risk dashboard to track and report the number of RHEL 5, RHEL 6, Windows 2008, and Windows 2012 servers across the environment, along with monthly comparisons and managerial oversight.</li>
+										  <li><strong>Technologies Used:</strong> Python, Flask, Pandas, Matplotlib, SQL</li>
+										  <li><strong>Key Features:</strong></li>
+										  <ul>
+											  <li>Tracked the number of servers by operating system version.</li>
+											  <li>Grouped servers under each manager and director for better accountability and oversight.</li>
+											  <li>Generated monthly comparison reports to show progress in server updates and risk mitigation.</li>
+											  <li>Provided interactive visualizations and summaries to highlight key metrics and trends.</li>
+										  </ul>
+										  <li><strong>Challenges:</strong> Ensuring data accuracy and real-time updates while managing a large and dynamic dataset.</li>
+										  <li><strong>Outcomes:</strong> Improved visibility into IT risks and server status, aiding in better decision-making and resource allocation.</li>
+									  </ul>
+								  </div>
+								  <div id="server-hardening" class="description" style="display: none;">
+									  <h3>Server Hardening Experience</h3>
+									  <ul>
+										  <li>Utilized Secure Shell Protocol (SSH) to secure remote communications and access.</li>
+										  <li>Created sudo users to enforce the principle of least privilege and enhance security controls.</li>
+										  <li>Set up a basic firewall using iptables and firewalld to protect against unauthorized access.</li>
+										  <li>Enabled SELinux to enforce security policies and enhance system protection.</li>
+										  <li>Kept the kernel and software packages updated to mitigate vulnerabilities and ensure system stability.</li>
+										  <li>Purged unnecessary packages to minimize the system's vulnerability footprint.</li>
+										  <li>Disabled unnecessary SUID and SGID binaries to reduce the risk of privilege escalation attacks.</li>
+										  <li>Implemented comprehensive logging and auditing practices to monitor system activity and detect anomalies.</li>
+										  <li>Performed regular backups to ensure data integrity and availability in case of system failures or cyber incidents.</li>
+										  <li>Monitored listening network ports to detect unauthorized services and potential threats.</li>
+										  <li>Separated disk partitions to enhance system organization and security, isolating critical system files from user data.</li>
+										  <li>Disabled direct root login to reduce the risk of unauthorized root access.</li>
+										  <li>Configured secure boot and UEFI to ensure only trusted operating systems are allowed to boot.</li>
+									  </ul>
+								  </div>
+								  <div id="server-build" class="description" style="display: none;">
+									  <h3>Server Build Experience</h3>
+									  <ul>
+										  <li>Expertly managed the end-to-end process of building virtual machine servers in VCenter.</li>
+										  <li>Conducted physical server OS rebuilds, ensuring optimal performance and security.</li>
+										  <li>Executed post-configuration tasks using automated playbooks to streamline setup and compliance.</li>
+										  <li>Configured application filesystems and ensured proper partitioning for enhanced system management.</li>
+										  <li>Implemented best practices for server hardening and security during the build process.</li>
+										  <li>Collaborated with cross-functional teams to schedule and execute server builds and rebuilds with minimal downtime.</li>
+									  </ul>
+									  <h4>Real-Time Project: Enterprise Server Build and Rebuild Automation</h4>
+									  <ul>
+										  <li><strong>Project Overview:</strong> Led a project to automate the build and rebuild processes for both virtual and physical servers, enhancing deployment efficiency and reducing manual errors.</li>
+										  <li><strong>Technologies Used:</strong> VCenter, Ansible, Linux</li>
+										  <li><strong>Challenges:</strong> Ensuring seamless integration with existing infrastructure and maintaining high availability during transitions.</li>
+										  <li><strong>Outcomes:</strong> Improved server deployment times by 60% and increased overall system reliability.</li>
+									  </ul>
+								  </div>
+								  <div id="ansible" class="description" style="display: none;">
+									  <h3>Ansible Experience</h3>
+									  <ul>
+										  <li>Authored sophisticated Ansible playbooks for automated Linux patching.</li>
+										  <li>Developed comprehensive RHEL post-configuration playbooks to ensure system compliance and optimal performance.</li>
+										  <li>Streamlined deployment processes, reducing manual intervention and increasing efficiency.</li>
+										  <li>Leveraged Ansible’s powerful automation capabilities to enhance infrastructure management and consistency.</li>
+										  <li>Ensured high availability and scalability of critical applications through robust automation strategies.</li>
+									  </ul>
+									  <h4>Real-Time Project: Enterprise Linux Automation</h4>
+									  <ul>
+										  <li><strong>Project Overview:</strong> Designed and implemented an enterprise-level automation framework for Linux systems, focusing on patch management and post-configuration tasks.</li>
+										  <li><strong>Technologies Used:</strong> Ansible, RHEL, Linux</li>
+										  <li><strong>Challenges:</strong> Ensuring seamless integration with existing systems and minimizing downtime during patching cycles.</li>
+										  <li><strong>Outcomes:</strong> Achieved a 50% reduction in patch deployment time and significantly improved system reliability.</li>
+									  </ul>
+								  </div>
+								  <!-- Add more descriptions as needed -->
+							  </div>
+						  </div>
+
+						  <div class="resume-wrap d-flex ftco-animate">
+							  <div class="icon d-flex align-items-center justify-content-center">
+								  <span class="flaticon-ideas"></span>
+							  </div>
+							  <div class="text pl-3">
+								  <span class="date">May 2022-July 2022</span>
+								  <h2>Cybersecurity Engineer</h2>
+								  <span class="position">Virtually Testing Foundation</span>
+								  <br></br>
+								  <p>Created a homelab with a pf-sense firewall along with an AD environment comprising of a domain controller and 2 workstations as well as an isolated network with a windows and Linux machine running Elasticstack.</p>
+								  <p>Tested the Atomic Red Team's Invoke-AtomicTest framework for both Windows and Linux as well as in an AD environment</p>
+								  <p>Mapped the test results to MITRE ATT&CK's TTPs for specific APT groups which were APT41, Wizard Spider and Sandworm team</p>
+								  <p>Configured an Elasticstack and analysed the logs captured from the tests.</p>
+								  <p>Used Wireshark to examine packet capture files for potential red flags, including executable file downloads and IP conversations that indicated malicious activity.</p>
+							  </div>
+						  </div>
+
+					  </div>
+					  <div id="page-3" class="page three">
+						  <h2 class="heading">Skills</h2>
+						  <div class="row progress-circle mb-5">
+							  <div class="col-lg-4 mb-4">
+								  <div class="bg-white rounded-lg shadow p-4">
+									  <h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
+
+									  <!-- Progress bar 1 -->
+									  <div class="progress mx-auto" data-value='90'>
+										  <span class="progress-left">
+											  <span class="progress-bar border-primary"></span>
+										  </span>
+										  <span class="progress-right">
+											  <span class="progress-bar border-primary"></span>
+										  </span>
+										  <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											  <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+										  </div>
+									  </div>
+									  <!-- END -->
+									  <!-- Demo info -->
+									  <div class="row text-center mt-4">
+
+									  </div>
+									  <!-- END -->
+								  </div>
+							  </div>
+
+							  <div class="col-lg-4 mb-4">
+								  <div class="bg-white rounded-lg shadow p-4">
+									  <h2 class="h5 font-weight-bold text-center mb-4">SQL</h2>
+
+									  <!-- Progress bar 1 -->
+									  <div class="progress mx-auto" data-value='90'>
+										  <span class="progress-left">
+											  <span class="progress-bar border-primary"></span>
+										  </span>
+										  <span class="progress-right">
+											  <span class="progress-bar border-primary"></span>
+										  </span>
+										  <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											  <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+										  </div>
+									  </div>
+									  <!-- END -->
+									  <!-- Demo info -->
+									  <div class="row text-center mt-4">
+
+									  </div>
+									  <!-- END -->
+								  </div>
+							  </div>
+
+							  <div class="col-lg-4 mb-4">
+								  <div class="bg-white rounded-lg shadow p-4">
+									  <h2 class="h5 font-weight-bold text-center mb-4">Linux</h2>
+
+									  <!-- Progress bar 1 -->
+									  <div class="progress mx-auto" data-value='90'>
+										  <span class="progress-left">
+											  <span class="progress-bar border-primary"></span>
+										  </span>
+										  <span class="progress-right">
+											  <span class="progress-bar border-primary"></span>
+										  </span>
+										  <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+											  <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+										  </div>
+									  </div>
+									  <!-- END -->
+									  <!-- Demo info -->
+									  <div class="row text-center mt-4">
+
+									  </div>
+									  <!-- END -->
+								  </div>
+							  </div>
+						  </div>
+						  <div class="row">
+							  <div class="col-md-6 animate-box">
+								  <div class="progress-wrap ftco-animate">
+									  <h3>Web Application Security</h3>
+									  <div class="progress">
+										  <div class="progress-bar color-1" role="progressbar" aria-valuenow="85"
+						   aria-valuemin="0" aria-valuemax="100" style="width:85%">
+											  <span>85%</span>
+										  </div>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-md-6 animate-box">
+								  <div class="progress-wrap ftco-animate">
+									  <h3>AWS</h3>
+									  <div class="progress">
+										  <div class="progress-bar color-2" role="progressbar" aria-valuenow="75"
+						   aria-valuemin="0" aria-valuemax="100" style="width:75%">
+											  <span>75%</span>
+										  </div>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-md-6 animate-box">
+								  <div class="progress-wrap ftco-animate">
+									  <h3>Server Hardening</h3>
+									  <div class="progress">
+										  <div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+						   aria-valuemin="0" aria-valuemax="100" style="width:85%">
+											  <span>85%</span>
+										  </div>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-md-6 animate-box">
+								  <div class="progress-wrap ftco-animate">
+									  <h3>Video Editing</h3>
+									  <div class="progress">
+										  <div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
+						   aria-valuemin="0" aria-valuemax="100" style="width:70%">
+											  <span>70%</span>
+										  </div>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-md-6 animate-box">
+								  <div class="progress-wrap ftco-animate">
+									  <h3>Shell Scripting</h3>
+									  <div class="progress">
+										  <div class="progress-bar color-5" role="progressbar" aria-valuenow="85"
+						   aria-valuemin="0" aria-valuemax="100" style="width:85%">
+											  <span>85%</span>
+										  </div>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-md-6 animate-box">
+								  <div class="progress-wrap ftco-animate">
+									  <h3>Ansible</h3>
+									  <div class="progress">
+										  <div class="progress-bar color-6" role="progressbar" aria-valuenow="60"
+						   aria-valuemin="0" aria-valuemax="100" style="width:60%">
+											  <span>60%</span>
+										  </div>
+									  </div>
+								  </div>
+							  </div>
+						  </div>
+					  </div>
+					  <div id="page-4" class="page four">
+						  <h2 class="heading">Projects</h2>
+						  <div class="resume-wrap d-flex ftco-animate">
+
+							  <div class="text pl-3">
+
+								  <h2>Cybersecurity Toolbox</h2>
+								  <h6>Languages and Frameworks:  Python,HTML,CSS,Javascript,Flask</h6>
+								  <p>Developed and deployed a password breach checker and MD5 hash cracker using Python, leveraging the Flask web framework to seamlessly integrate these applications into a user-friendly website.</p>
+								  <a href="https://github.com/Ashwanthbala/cybersecurity-toolbox" class="btn btn-primary mr-2" target="_blank">View Source Code</a>
+								  <a href="https://cybertoolbox.pythonanywhere.com/" class="btn btn-secondary" target="_blank">View Live</a>
+							  </div>
+						  </div>
+					  </div>
+					  <div class="resume-wrap d-flex ftco-animate">
+						  <div class="text pl-3">
+							  <h2>Website Security Header Checker</h2>
+							  <h6>Languages and Frameworks:  Python,HTML,CSS,Javascript,Flask</h6>
+							  <p>
+								  Website Security Header Checker is a web application designed to help developers and security professionals check the HTTP headers and security configurations of any given website. By entering a URL, you can quickly view the HTTP response headers, security headers, and other relevant information, helping you identify potential security issues and ensure best practices are followed.
+								  <br>
+								  Features
+								  <br>
+								  i) HTTP Verb Results: Check the status and potential vulnerabilities of various HTTP verbs.
+								  <br />
+								  ii) Header Results: Display the headers returned by the server for the given URL.
+								  <br>
+								  iii) Cookie Results: Analyze cookies for secure and HTTPOnly attributes, among other details.
+								  <br>
+								  iv) Security Header Results: Review security-related headers like Content-Security-Policy, Strict-Transport-Security, etc
+								  <br>
+							  </p>
+							  <a href="https://github.com/Ashwanthbala/Website-SecurityHeader-Checker" class="btn btn-primary mr-2" target="_blank">View Source Code</a>
+							  <a href="https://webheadchecker.pythonanywhere.com/" class="btn btn-secondary" target="_blank">View Live</a>
+						  </div>
+					  </div>
+					  <div class="resume-wrap d-flex ftco-animate">
+						  <div class="text pl-3">
+							  <h2>Dockerization of Python ToDo Application</h2>
+							  <h6>Languages and Frameworks:  Python,SQLite(flat-file database),Docker,HTML,Bootstrap CSS</h6>
+							  <p>
+								  Containerized a simple Python ToDo application using Docker.
+								  <br>
+								  Features
+								  <br>
+								  i) Python ToDo Application allows us to update/delete the tasks. The Simple UI allows us to easily track our daily tasks.
+								  <br />
+								  ii) Though the complexity of the application is very simple, this project is helps us to understand the basic functionality of flask and flat-file databases. 
+								  <br>
+								  iii) The application is stored in Docker Hub. It can be easily deployed in anyone's system using "Docker pull" command.
+								  <br />
+								  <br>
+							  </p>
+							  <a href="https://github.com/Ashwanthbala/Todo-app" class="btn btn-primary mr-2" target="_blank">View Source Code</a>
+							  <a href="https://hub.docker.com/repository/docker/ashwanthbala/python-todo/" class="btn btn-secondary" target="_blank">View Project in Docker Hub</a>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+		  </div>
+	  </section>
+
+	  <section class="ftco-section" id="services-section">
+		  <div class="container-fluid px-md-5">
+			  <div class="row justify-content-center py-5 mt-5">
+				  <div class="col-md-12 heading-section text-center ftco-animate">
+					  <h1 class="big big-2">Services</h1>
+					  <h2 class="mb-4">Certifications</h2>
+				  </div>
+			  </div>
+			  <div class="row">
+				  <div class="col-md-4 text-center d-flex ftco-animate">
+					  <a href="https://www.coursera.org/account/accomplishments/professional-cert/CRCMQUW8TDPG" target="_blank" class="services-1 shadow">
+						  <span class="icon">
+							  <i class="flaticon-analysis"></i>
+						  </span>
+						  <div class="desc">
+							  <h3 class="mb-5">Google Cybersecurity Professional Certification</h3>
+							  <p>Cybersecurity Professional Certification by Google on Coursera.</p>
+						  </div>
+					  </a>
+				  </div>
+				  <div class="col-md-4 text-center d-flex ftco-animate">
+					  <a href="https://www.coursera.org/account/accomplishments/professional-cert/FJ8P7BHRMJRJ" target="_blank" class="services-1 shadow">
+						  <span class="icon">
+							  <i class="flaticon-flasks"></i>
+						  </span>
+						  <div class="desc">
+							  <h3 class="mb-5">IBM Cybersecurity Analyst Professional Certification</h3>
+							  <p>Cybersecurity Analyst Professional Certification by IBM on Coursera.</p>
+						  </div>
+					  </a>
+				  </div>
+				  <div class="col-md-4 text-center d-flex ftco-animate">
+					  <a href="https://www.coursera.org/account/accomplishments/specialization/LX7SYWCHFV23" target="_blank" class="services-1 shadow">
+						  <span class="icon">
+							  <i class="flaticon-innovation"></i>
+						  </span>
+						  <div class="desc">
+							  <h3 class="mb-5">Security Analyst Specialization</h3>
+							  <p>Security Analyst Specialization by IBM on Coursera.</p>
+						  </div>
+					  </a>
+				  </div>
+			  </div>
+		  </div>
+		  </div>
+		  </div>
+	  </section>
+
+	  <section class="ftco-section" id="blog-section">
+		  <div class="container">
+			  <div class="row justify-content-center mb-5 pb-5">
+				  <div class="col-md-7 heading-section text-center ftco-animate">
+					  <h1 class="big big-2">Blog</h1>
+					  <h2 class="mb-2">My Blog</h2>
+				  </div>
+			  </div>
+			  <div class="row d-flex">
+				  <div class="col-md-12 ftco-animate">
+					  <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+						  <div class="carousel-inner">
+							  <div class="carousel-item active">
+								  <div class="row">
+									  <!-- First blog -->
+									  <div class="col-md-4">
+										  <div class="blog-entry">
+											  <a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_vtfoundation-internship-activity-6947756486794035200-sRnY?utm_source=share&utm_medium=member_desktop" class="block-20" style="background-image: url('images/image_1.jpg');"></a>
+											  <div class="text mt-3 float-right d-block">
+												  <h3 class="heading"><a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_vtfoundation-internship-activity-6947756486794035200-sRnY?utm_source=share&utm_medium=member_desktop">Cloud Computing and Cloud Security</a></h3>
+												  <div class="d-flex align-items-center mb-3 meta"></div>
+											  </div>
+										  </div>
+									  </div>
+									  <!-- Second blog -->
+									  <div class="col-md-4">
+										  <div class="blog-entry">
+											  <a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_mitre-attck-what-it-is-how-it-works-who-activity-6929794344883281922-80TR?utm_source=share&utm_medium=member_desktop" class="block-20" style="background-image: url('images/image_2.jpg');"></a>
+											  <div class="text mt-3 float-right d-block">
+												  <h3 class="heading"><a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_mitre-attck-what-it-is-how-it-works-who-activity-6929794344883281922-80TR?utm_source=share&utm_medium=member_desktop">MITRE ATT&CK Framework</a></h3>
+												  <div class="d-flex align-items-center mb-3 meta"></div>
+											  </div>
+										  </div>
+									  </div>
+									  <div class="col-md-4">
+										  <div class="blog-entry">
+											  <a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_securitytrails-fighting-against-phishing-activity-6932028344754475008-QP0m?utm_source=share&utm_medium=member_desktop" class="block-20" style="background-image: url('images/image_3.jpg');"></a>
+											  <div class="text mt-3 float-right d-block">
+												  <h3 class="heading"><a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_securitytrails-fighting-against-phishing-activity-6932028344754475008-QP0m?utm_source=share&utm_medium=member_desktop">Phishing Tools</a></h3>
+												  <div class="d-flex align-items-center mb-3 meta"></div>
+											  </div>
+										  </div>
+									  </div>
+									  <!-- Third blog -->
+									  <div class="col-md-4">
+										  <div class="blog-entry">
+											  <a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_vtfoundation-internship-osint-activity-6942469968047271936-NHSE?utm_source=share&utm_medium=member_desktop" class="block-20" style="background-image: url('images/image_1.jpg');"></a>
+											  <div class="text mt-3 float-right d-block">
+												  <h3 class="heading"><a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_vtfoundation-internship-osint-activity-6942469968047271936-NHSE?utm_source=share&utm_medium=member_desktop">Open Source Intelligence</a></h3>
+												  <div class="d-flex align-items-center mb-3 meta"></div>
+											  </div>
+										  </div>
+									  </div>
+									  <div class="col-md-4">
+										  <div class="blog-entry">
+											  <a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_vtfoundation-internship-pfsense-activity-6944684012401483776-sj77?utm_source=share&utm_medium=member_desktop" class="block-20" style="background-image: url('images/image_2.jpg');"></a>
+											  <div class="text mt-3 float-right d-block">
+												  <h3 class="heading"><a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_vtfoundation-internship-pfsense-activity-6944684012401483776-sj77?utm_source=share&utm_medium=member_desktop">pfsense Firewall</a></h3>
+												  <div class="d-flex align-items-center mb-3 meta"></div>
+											  </div>
+										  </div>
+									  </div>
+									  <div class="col-md-4">
+										  <div class="blog-entry">
+											  <a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_attack-defense-detection-activity-6936961675661041664-bdln?utm_source=share&utm_medium=member_desktop" class="block-20" style="background-image: url('images/image_3.jpg');"></a>
+											  <div class="text mt-3 float-right d-block">
+												  <h3 class="heading"><a href="https://www.linkedin.com/posts/ashwanth-balaji-r-6a1221225_attack-defense-detection-activity-6936961675661041664-bdln?utm_source=share&utm_medium=member_desktop">Microsoft Active Directory Attacks</a></h3>
+												  <div class="d-flex align-items-center mb-3 meta"></div>
+											  </div>
+										  </div>
+									  </div>
+								  </div>
+							  </div>
+							  <!-- Add more carousel items for additional blogs -->
+						  </div>
+						  <!-- Carousel navigation arrows -->
+						  <a class="carousel-control-prev" href="#blogCarousel" role="button" data-slide="prev">
+							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							  <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#blogCarousel" role="button" data-slide="next">
+							  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							  <span class="sr-only">Next</span>
+						  </a>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+
+	  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		  <div class="container">
+			  <div class="row justify-content-center mb-5 pb-3">
+				  <div class="col-md-7 heading-section text-center ftco-animate">
+					  <h1 class="big big-2">Contact</h1>
+					  <h2 class="mb-4">Contact</h2>
+					  <p class="lead mb-4">Would you like to work with me? Awesome!</p>
+					  <!-- Add button here -->
+					  <a href="https://cybertoolbox.pythonanywhere.com/contact" target="_blank" class="btn btn-stylish">Let's Talk</a>
+				  </div>
+			  </div>
+
+			  <div class="row no-gutters block-9">
+				  <div class="col-md-6 d-flex">
+					  <div class="img" style="background-image: url(images/about.jpg);"></div>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+
+
+	  <footer class="ftco-footer ftco-section">
+		  <div class="container">
+			  <div class="row mb-5">
+				  <div class="col-md-12 text-center">
+					  <div class="ftco-footer-widget mb-4">
+						  <ul class="ftco-footer-social list-unstyled d-inline-flex justify-content-center">
+							  <li class="ftco-animate mx-2"><a href="https://github.com/Ashwanthbala"><span class="icon-github"></span></a></li>
+							  <li class="ftco-animate mx-2"><a href="https://twitter.com/ashwanthbalajir"><span class="icon-twitter"></span></a></li>
+						  </ul>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="row">
+				  <div class="col-md-12 text-center">
+
+					  <p>
+						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						  Copyright &copy;
+						  <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					  </p>
+				  </div>
+			  </div>
+		  </div>
+	  </footer>
+
+
+
+	  <!-- loader -->
+	  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+
+	  <script src="js/jquery.min.js"></script>
+	  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+	  <script src="js/popper.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/jquery.easing.1.3.js"></script>
+	  <script src="js/jquery.waypoints.min.js"></script>
+	  <script src="js/jquery.stellar.min.js"></script>
+	  <script src="js/owl.carousel.min.js"></script>
+	  <script src="js/jquery.magnific-popup.min.js"></script>
+	  <script src="js/aos.js"></script>
+	  <script src="js/jquery.animateNumber.min.js"></script>
+	  <script src="js/scrollax.min.js"></script>
+
+	  <script src="js/main.js"></script>
+
+	  <script>
+		function showDescription(id) {
+			// Hide all descriptions
+			var descriptions = document.querySelectorAll('.description');
+			descriptions.forEach(function (desc) {
+				desc.style.display = 'none';
+			});
+
+			// Show the selected description
+			var selectedDescription = document.getElementById(id);
+			if (selectedDescription) {
+				selectedDescription.style.display = 'block';
+			}
+		}
+	  </script>
+
+
+  </body>
+</html>
